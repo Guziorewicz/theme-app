@@ -1,0 +1,139 @@
+/* .box{
+    padding: 10px;
+}
+
+.btn-div {
+    display: grid;
+    place-items: end;
+}
+
+.main-btn-div {
+    display: grid;
+    place-items: end;
+}
+.btn-reset:hover,
+.btn-reset:focus {
+   background-color: #9c9c9c; 
+}
+
+.example {
+    margin: 10px;
+    border: solid 2px;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.palisado, 
+button{ 
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #5d0909;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    margin: 8px;
+    width: 200px;
+  }
+
+  /* .palisado:focus,
+  .palisado:hover,   */
+  /* button:hover,
+  button:focus {
+     background-color: #9c9c9c; 
+  } */
+
+  /* #btn-scr { */
+    /* width: 10px; Szerokość przycisku */
+    /* height: 10px; Wysokość przycisku */
+    /* padding: 0; Usunięcie paddingu */
+    /* border-radius: 50%; Zaokrąglenie przycisku, aby stał się okrągły */
+    /* border: none; Usunięcie obramowania */
+    /* background-color: #333; Kolor tła */
+    /* color: transparent; Ukrycie tekstu */
+    /* overflow: hidden; Ukrycie ewentualnego nadmiaru tekstu */
+    /* display: inline-block; Wyświetlanie jako element blokowy inline */
+  /* } */
+
+   /* */ 
+
+   /* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #edebf0;
+  padding: 3rem;
+}
+
+#inputs {
+  display: flex;
+  gap: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.15rem;
+}
+
+input {
+  display: block;
+  width: 5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+} */
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* Box-sizing can be retained for better layout control */
+* {
+  box-sizing: border-box;
+}
+
+/* Use Bootstrap’s font utilities */
+html {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Use Bootstrap’s body classes for padding and margin removal */
+body {
+  background-color: #edebf0; /* Custom background color if needed */
+}
+
+/* Optional, but Bootstrap’s spacing utilities like ms-3 and p-3 handle margins and paddings */
+.example {
+  border-radius: 20px; /* If border-radius is specific, otherwise can be removed */
+}
+
+button:hover,
+button:focus {
+  background-color: #9c9c9c; /* Hover effect override */
+}
+
+#btn-scr {
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #333;
+  color: transparent;
+}
+

@@ -1,0 +1,42 @@
+    @if (isFetched) {
+        <div class="container mt-3">
+            <div class="header mb-4 text-center">
+                <p class="fw-bold headers">Kliknij na przycisk przy palecie aby wypróbować dany styl</p>
+                <div class="d-flex justify-content-end">
+                    <button class="btn btn-secondary btn-reset" (click)="resetStyles()">Reset</button>
+                </div>
+            </div>
+        
+            <!-- Responsive layout using Bootstrap's grid system -->
+            <div class="row g-3">
+                <div *ngFor="let item of jsonData" class="col-12 col-sm-12 col-md-6 col-lg-4 p-4 border rounded shadow">
+                    <h4 class="headers">{{item.name}}</h4>
+                    <p><strong class="headers">Opis: </strong><span class="texts">{{item.opis}}</span></p>
+                    <p><strong class="headers">Zastosowanie: </strong><span class="texts">{{item.zastosowanie}}</span></p>
+                    <p><strong class="headers">Przykład:</strong></p>
+                    <div class="example p-3 mb-3 border rounded" [ngStyle]="{
+                        'background-color': item.przyklad.tlo,
+                        'border-color': item.przyklad.akcenty
+                    }">
+                        <div *ngFor="let example of item.przyklad | keyvalue">
+                            <p><strong [style.color]="item.przyklad.naglowki">{{transformKey(example.key) | titlecase}}: </strong>
+                                <span [style.color]="item.przyklad.tekst">{{example.value}}</span></p>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button class="btn btn-primary" [ngStyle]="{'background-color': item.przyklad.akcenty}" 
+                                (click)="applyStyles(item.przyklad)">
+                                Wypróbuj
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    } @else {
+    <div class="container mt-3">
+        <div class="header mb-4 text-center">
+           <p class="fw-bold headers"> Ładowanie danych ...</p>
+        </div>
+    </div>
+    }

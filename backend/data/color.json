@@ -1,0 +1,47 @@
+[
+	{
+	  "name": "Schematy Monochromatyczne",
+	  "opis": "Wykorzystują różne odcienie, tony i nasycenie jednego koloru.",
+	  "zastosowanie": "Tworzy spójny, elegancki wygląd.",
+	  "przyklad": {
+		"tlo": "#FAF9F6",       
+		"naglowki": "#6B8E23",  
+		"akcenty": "#8B4513",   
+		"tekst": "#2F4F4F"      
+	  }
+	},
+	{
+	  "name": "Schematy Analogiczne",
+	  "opis": "Łączy kolory leżące obok siebie na kole kolorów.",
+	  "zastosowanie": "Tworzy harmonijny, naturalny wygląd, idealny do stron o spokojnym, relaksującym charakterze.",
+	  "przyklad": {
+		"tlo": "#009688",       
+		"naglowki": "#00BCD4",  
+		"akcenty": "#004D40",   
+		"tekst": "#E0F2F1"      
+	  }
+	},
+	{
+	  "name": "Schematy Komplementarne",
+	  "opis": "Używa kolorów przeciwnych na kole kolorów.",
+	  "zastosowanie": "Przyciąga uwagę i tworzy dynamiczny kontrast, idealny dla elementów akcji, takich jak przyciski.",
+	  "przyklad": {
+		"tlo": "#001F3F",       
+		"naglowki": "#FF851B",  
+		"akcenty": "#EAC500",   
+		"tekst": "#FFFFFF"      
+	  }
+	},
+	{
+	  "name": "Schematy Triadyczne",
+	  "opis": "Wybiera trzy kolory równomiernie rozmieszczone na kole kolorów.",
+	  "zastosowanie": "Tworzy kolorowy, zrównoważony wygląd, idealny dla aplikacji o żywym i młodzieńczym charakterze.",
+	  "przyklad": {
+		"tlo": "#FF4136",       
+		"naglowki": "#0074D9",  
+		"akcenty": "#2ECC40",   
+		"tekst": "#FFFFFF"      
+	  }
+	}
+  ]
+  

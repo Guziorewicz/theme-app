@@ -1,0 +1,11 @@
+{
+  "/assets": {
+    "target": "http://localhost:4200",
+    "secure": false,
+    "changeOrigin": true,
+    "headers": {
+      "Content-Security-Policy": "default-src 'self'; img-src 'self';"
+    }
+  }
+}
+
